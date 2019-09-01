@@ -17,6 +17,9 @@ public:
 
 private:
     Ui::MainWindow *ui;
+
+public slots:
+    void slot_addItemToListWidget();
 };
 
 #endif // MAINWINDOW_H
